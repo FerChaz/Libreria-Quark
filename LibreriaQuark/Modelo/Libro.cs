@@ -11,6 +11,7 @@ namespace LibreriaQuark.Modelo
         private string nombre;
         private string codigoISBN;
         private string autor;
+        private List<Ejemplar> ejemplares = new List<Ejemplar>();
 
         public string CodigoISBN
         {
@@ -29,7 +30,6 @@ namespace LibreriaQuark.Modelo
             get { return ejemplares.Count; }
         }
 
-        private List<Ejemplar> ejemplares = new List<Ejemplar>();
 
         public Libro(string nombre, string isbn, string autor)
         {

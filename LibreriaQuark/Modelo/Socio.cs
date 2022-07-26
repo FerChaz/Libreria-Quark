@@ -14,6 +14,7 @@ namespace LibreriaQuark.Modelo
 
         protected bool esVip;
 
+        protected List<Ejemplar> ejemplaresRetirados = new List<Ejemplar>();
         public string NombreApellido
         {
             get { return nombre + " " + apellido; }
@@ -23,7 +24,6 @@ namespace LibreriaQuark.Modelo
             get { return esVip; }
         }
 
-        protected List<Ejemplar> ejemplaresRetirados = new List<Ejemplar>();
 
         public Socio(string nombre, string apellido, int id)
         {
