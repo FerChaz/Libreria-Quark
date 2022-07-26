@@ -8,7 +8,19 @@ namespace LibreriaQuark.Modelo
 {
     class SocioVip : Socio
     {
-        private float coutaMensual;
-        
+        private float cuotaMensual;
+
+        public SocioVip(string nombre, string apellido, float cuotaMensual, int id) : base (nombre, apellido, id)
+        {
+            this.cuotaMensual = cuotaMensual;
+            this.esVip = true;
+        }
+
+        public override bool CupoDisponible()
+        {
+            return ejemplaresRetirados.Count == 3 ? false : true;
+        }
+
+
     }
 }

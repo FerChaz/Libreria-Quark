@@ -11,6 +11,18 @@ namespace LibreriaQuark.Modelo
         private int numeroEdicion;
         private string ubicacion;
 
-        private int codigoISBNLibro;
+        private string codigoISBNLibro;
+
+        public string ISBN
+        {
+            get { return codigoISBNLibro; }
+        }
+
+        public Ejemplar(int numeroEdicion, string ubicacion, string isbn)
+        {
+            this.numeroEdicion = numeroEdicion;
+            this.ubicacion = ubicacion;
+            this.codigoISBNLibro = isbn;
+        }
     }
 }

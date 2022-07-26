@@ -1,0 +1,10 @@
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\bin\Debug\LibreriaQuark.exe.config
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\bin\Debug\LibreriaQuark.exe
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\bin\Debug\LibreriaQuark.pdb
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.csproj.AssemblyReference.cache
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.Properties.Resources.resources
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.Form1.resources
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.csproj.GenerateResource.cache
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.csproj.CoreCompileInputs.cache
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.exe
+N:\QuarkAcademy\Libreria-Quark\LibreriaQuark\obj\Debug\LibreriaQuark.pdb
